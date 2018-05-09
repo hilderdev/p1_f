@@ -1,0 +1,11 @@
+.footer-container{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 1.3em;
+    background: #252525;
+    color: #ccc;
+    z-index: 9999999999;
+}
