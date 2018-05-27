@@ -9,7 +9,9 @@ import { Component } from "@angular/core";
 
 export class FooterComponent{
     private instagram:string;
+    private facebook:string
     constructor(){
-        this.instagram = 'hilderdev'
+        this.instagram = 'mitasadecambio'
+        this.facebook = 'mitasadecambio'
     }
 }

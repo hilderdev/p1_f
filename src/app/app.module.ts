@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './commons/header/header.component';
 import { FooterComponent } from './commons/footer/footer.component';
 import { allModule } from './commons/all.module';
+import { ServicesModule } from './services/services.module';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { allModule } from './commons/all.module';
     FormsModule,
     AngularFontAwesomeModule,
     allModule,
-    Ng2SmartTableModule
+    Ng2SmartTableModule,
+    ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,11 +1,17 @@
+body,a,p,div,i div{
+    font-family: 'Roboto', sans-serif !important;
+}
 .footer-container{
     text-align: center;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 20px 0px;
-    font-size: 1.3em;
+    padding: 10px 0px;
+    font-size: 1.1em;
     background: #252525;
     color: #ccc;
     z-index: 9999999999;
+}
+.footer-container i div{
+    padding: 5px 5px;
 }
